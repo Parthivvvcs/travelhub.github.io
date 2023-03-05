@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel</title>
+    <link rel="stylesheet" href="travelstyle.css">
+    <link rel="stylesheet" media="screen and (max-width:850px)" href="mobile.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+        <img src="camp-g5475f1dc9_1280.png" alt="#">
+        </div>
+        <ul class="navlinks">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">Tours</a></li>
+            <li><a href="">Explore</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="" class="ctn">Contact</a></li>
+        </ul>
+        <img src="pngtree-menu-free-button-png-image-image_1197358-removebg-preview (1).png" alt="" class="menubutton">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>
+                Explore the Colorful World
+            </h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+
+        </div>
+    </header>
+
+    <!-- events -->
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="ski-g51687f751_1920.jpg" alt="#">
+                <h4>Ski Ventures</h4>
+                <p>Skiing is the use of skis to glide on snow. Variations of purpose include basic transport, a
+                    recreational
+                    activity, or a competitive winter sport. Many types of competitive skiing events are recognized by
+                    the
+                    International Olympic Committee, and the International Ski Federation.</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="bonfire-g3f7582188_1920.jpg" alt="#">
+                <h4>Bonfire Party</h4>
+                <p>Once everyone has had their fill of food, there's still plenty of fun to be had, from playful field
+                    games
+                    and charades to ghost stories or sing-along campfire songs. You can also set the mood with a
+                    feel-good
+                    playlist and outdoor speakers, inviting guests to dance along if there's space to do so safely</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explorecontent">
+        <h1>EXPLPLORE THE WORLD</h1>
+        <div class="line2"></div>
+        <p>Come and explore with us , we are here to help you at any time with all sort of travel requirements and we
+            will provide you all sorts of services too.</p>
+            <button class="ctn">Learn more</button>
+        </div>
+    </section>
+
+    <script>
+        const menubutton = document.querySelector('.menubutton')
+        const navlinks = document.querySelector('.navlinks')
+
+        menubutton.addEventListener('click', () => {
+            navlinks.classList.toggle('mobilemenu')
+        })
+    </script>
+</body>
+
+</html>

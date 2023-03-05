@@ -1,0 +1,190 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body,html{
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('mountain-g93384eda2_1920.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.header-content h2{
+   font-size: 2.5rem;
+  
+}
+.header-content h1{
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+
+.line{
+    width: 195px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.ctn
+{
+    padding: 8px 15px;
+    background: #fc036b;
+   border-radius: 30px;
+   color: whitesmoke; 
+}
+
+.navbar{
+    position:absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+    color: whitesmoke;
+  
+}
+.active{
+color:#fc036b;
+text-decoration: underline;
+font-weight: bold;
+}
+ul{
+    list-style: none;
+}
+
+.navlinks{
+    display: flex;
+    align-items:center ;
+}
+
+.navlinks li{
+    margin:0 30px;
+}
+.menubutton{
+    position: absolute;
+    top: 10px;
+    right: -1px;
+    width: 46px;
+    cursor: pointer;
+    display: none;
+}
+
+/* events */
+
+section{
+    width: 80%;
+    margin: 80px auto;
+    
+}
+.row .col img{
+    width: 400px;
+    height: 300px;
+   
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:space-between ;
+
+}
+
+.row .col{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+
+.title{
+text-align: center;
+font-size: 3rem;
+color: #49497e;
+}
+
+.events .row{
+    margin-top: 40px;
+}
+
+h4{
+    font-size:1rem;
+    color: #49497e;
+    margin: 20px auto;    
+}
+
+p{
+color: #7c7c7c;
+padding: 0px 20px ;
+}
+
+.events .ctn{
+    margin-top:30px;
+}
+
+.explore{
+    height: 80vh;
+    width: 100%;
+    background-image: url(travel-g9d2df2d85_1920.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.explorecontent{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 50px;
+    align-items: center;
+}
+.explorecontent h1{
+    color: whitesmoke;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.explorecontent p{
+    color: whitesmoke;
+    font-size: 1rem;
+    
+}
+.line2{
+    background: #fc036b;
+    width: 200px;
+    height: 4px;
+    margin-bottom: 10px;
+
+}
+
+img{
+    transition: transform .3s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
